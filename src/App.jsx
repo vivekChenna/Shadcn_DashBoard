@@ -16,11 +16,11 @@ function App() {
     <BrowserRouter>
       <Header />
 
-      <div className="mx-3 shadow-lg h-[90vh] w-[94vw] border-t py-2 px-3 rounded-xl">
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/examples/mail" element={<MailBox />} />
-      </Routes>
+      <div className="mx-auto shadow-lg w-[94vw] mb-4 border-t py-2 px-3 rounded-xl">
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/examples/mail" element={<MailBox />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );

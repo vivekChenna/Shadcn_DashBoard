@@ -5,7 +5,7 @@ import DashBoardContainer from "./DashBoardContainer";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className=" mb-3">
       <DashBoardHeader />
       <DashBoardContainer />
     </div>
